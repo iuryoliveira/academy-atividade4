@@ -67,7 +67,7 @@ Feature: Atualizar usuário
         Then match responseStatus == expectedStatus
 
         Examples:
-        | expectedStatus! | name |
+        | expectedStatus! | name                                                                                                   |
         | 400             | iaushdausidashduiashdiausdausdhaiusdhaiudahsudihaiusdhaiudsnauiahsdiuahdusasdhuashhaasdasdhiauhdsiahd  |
         | 400             | iaushdausidashduiashdiausdausdhaiusdhaiudahsudihaiusdhaiudsnauiahsdiuahdusasdhuashhaasdasdhiauhdsiahd2 |
         | 200             | iaushdausidashduiashdiausdausdhaiusdhaiudahsudihaiusdhaiudsnauiahsdiuahdusasdhuashhaasdasdhiauhdsiah   |
